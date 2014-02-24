@@ -1,0 +1,837 @@
+﻿@{
+    ViewBag.Title = "Home Page";
+}
+
+<div id="home" class="section anchor">
+    <div id="slider">
+        <ul>
+            <!-- slotzoom-horizontal -->
+            <li data-transition="slotzoom-horizontal" data-slotamount="1">
+                <img src="/Images/banners/banner4.jpg" alt="" />
+                <div class="caption sft very_big_white"
+                     data-x="306"
+                     data-y="120"
+                     data-speed="900"
+                     data-start="1000"
+                     data-easing="easeOutBack">
+                    Dave Miller
+                </div>
+                <div class="caption sft big_white"
+                     data-x="480"
+                     data-y="310"
+                     data-speed="900"
+                     data-start="1100"
+                     data-easing="easeOutBack">
+                    Painting  
+                </div>
+                <div class="caption sft big_white start" data-easing="easeOutExpo"
+                     data-start="1400"
+                     data-speed="1000"
+                     data-y="310"
+                     data-x="right">
+                    & Restorations
+                </div>
+                @*<div class="caption lfl tp-caption start"
+         data-easing="easeOutExpo"
+         data-start="1600"
+         data-speed="1000"
+         data-y="411"
+         data-x="300">
+        <img src="/Images/temp/slider_ipad.png" alt="" style="width: 316px; height: 380px;" />
+    </div>
+    <div class="caption lfb tp-caption start"
+         data-easing="easeOutExpo"
+         data-start="1800"
+         data-speed="1000"
+         data-y="516"
+         data-x="500">
+        <img src="/Images/temp/slider_iphone.png" alt="" style="width: 143px; height: 262px;" />
+    </div>*@
+            </li>
+            <!-- SLIDE LEFT -->
+            <li data-transition="slideleft" data-slotamount="1">
+                <img src="/Images/banners/banner1.jpg" alt="" />
+                <div class="caption lfr start tp-caption customin customout"
+                     data-x="left"
+                     data-y="bottom"
+                     data-hoffset="170"
+                     data-start="2000"
+                     data-end="6000"
+                     data-speed="1000"
+                     data-easing="Power4.easeOut"
+                     data-endspeed="1000"
+                     data-endeasing="Power4.easeIn"
+                     data-customin="x:0;y:1000;z:0;rotationX:0;rotationY:0;rotationZ:0;scaleX:0.75;scaleY:0.75;skewX:0;skewY:0;opacity:0;"
+                     data-customout="x:-1000;y:-1000;z:0;rotationX:0;rotationY:0;rotationZ:0;scaleX:1.25;scaleY:1.25;skewX:0;skewY:0;opacity:0;">
+                    <img src="/Images/temp/slide_2_jet2.png" alt="" />
+                </div>
+                <div class="caption lfr start tp-caption customin customout"
+                     data-x="right"
+                     data-y="bottom"
+                     data-hoffset="200"
+                     data-voffset="400"
+                     data-start="1400"
+                     data-end="5000"
+                     data-speed="1000"
+                     data-easing="Power4.easeOut"
+                     data-endspeed="1000"
+                     data-endeasing="Power4.easeIn"
+                     data-customin="x:0;y:1000;z:0;rotationX:0;rotationY:0;rotationZ:0;scaleX:0.75;scaleY:0.75;skewX:0;skewY:0;opacity:0;"
+                     data-customout="x:-1000;y:-1000;z:0;rotationX:0;rotationY:0;rotationZ:0;scaleX:1.25;scaleY:1.25;skewX:0;skewY:0;opacity:0;">
+                    <img src="/Images/temp/slide_2_jet1.png" alt="" />
+                </div>
+                <div class="caption tp-caption sft medium_white"
+                     data-x="40"
+                     data-y="280"
+                     data-speed="900"
+                     data-start="1500"
+                     data-easing="easeOutBack">
+                    Dave Miller Painting
+                </div>
+                <div class="caption lfb gigant_white"
+                     data-x="300"
+                     data-y="120"
+                     data-speed="900"
+                     data-start="1700"
+                     data-easing="easeOutBack">
+                    One Coat
+                </div>
+                <div class="caption sfl gigant_white"
+                     data-x="300"
+                     data-y="200"
+                     data-speed="900"
+                     data-start="2000"
+                     data-easing="easeOutBack">
+                    Above The Rest!
+                </div>
+            </li>
+            <!-- SLIDE DOWN -->
+            <li data-transition="slidedown" data-slotamount="1">
+                <img src="/Images/banners/banner2.jpg" alt="" />
+                <div class="caption tp-caption sft medium_white"
+                     data-x="20"
+                     data-y="260"
+                     data-speed="900"
+                     data-start="1500"
+                     data-easing="easeOutBack">
+                    Dave Miller Painting
+                </div>
+                <div class="tp-caption sft large_white"
+                     data-x="390"
+                     data-y="105"
+                     data-speed="900"
+                     data-start="1700"
+                     data-easing="easeOutBack">
+                    I can switch this
+                </div>
+                <div class="tp-caption sft slim_large_white"
+                     data-x="390"
+                     data-y="170"
+                     data-speed="900"
+                     data-start="1800"
+                     data-easing="easeOutBack">
+                    up however you'd like
+                </div>
+                <div class="tp-caption sft large_white"
+                     data-x="390"
+                     data-y="335"
+                     data-speed="900"
+                     data-start="1900"
+                     data-easing="easeOutBack">
+                    No Problem
+                </div>
+                @*<div class="caption lfb tp-caption start"
+                     data-x="center"
+                     data-y="325"
+                     data-start="1400"
+                     data-speed="1000"
+                     data-easing="easeOutExpo">
+                    <img src="/Images/temp/slide_3_macbook.png" alt="" />
+                </div>*@
+                @*<div class="tp-caption sft"
+                    data-x="center"
+                    data-y="350"
+                    data-speed="600"
+                    data-start="2000"
+                    data-easing="Power4.easeOut"
+                    data-endspeed="500"
+                    data-endeasing="Power4.easeOut"
+                    data-autoplay="true"
+                    data-autoplayonlyfirsttime="true"
+                    data-nextslideatend="true">
+                    <iframe src='http://player.vimeo.com/video/76512663?title=0&byline=0&portrait=0;api=1' width='553' height='346' style='width:553px;height:346px;'></iframe>
+                </div>*@
+            </li>
+            <!-- SLIDE curtain-1 -->
+            <li data-transition="curtain-1" data-slotamount="1">
+                <img src="/Images/banners/banner3.jpg" alt="" />
+                <div class="caption tp-caption sft medium_white"
+                     data-x="center"
+                     data-y="255"
+                     data-speed="900"
+                     data-start="1500"
+                     data-easing="easeOutBack">
+                    Dave Miller Painting
+                </div>
+                @*<div class="caption fade tp-caption start"
+                     data-x="right"
+                     data-y="460"
+                     data-hoffset="-30"
+                     data-start="2500"
+                     data-speed="1000"
+                     data-easing="easeOutExpo">
+                    <img src="/Images/temp/slide_4_washington.png" alt="" />
+                </div>*@
+                <div class="tp-caption sft italic_medium_white"
+                     data-x="center"
+                     data-y="320"
+                     data-speed="900"
+                     data-start="1700"
+                     data-easing="easeOutBack">
+                    More text if you'd like
+                </div>
+                <div class="tp-caption sft italic_medium_white"
+                     data-x="center"
+                     data-y="370"
+                     data-speed="900"
+                     data-start="1800"
+                     data-easing="easeOutBack">
+                    or not, if you'd like
+                </div>
+                @*<div class="tp-caption sft italic_medium_white"
+                     data-x="center"
+                     data-y="420"
+                     data-speed="900"
+                     data-start="1900"
+                     data-easing="easeOutBack">
+                    to bring it to light."
+                </div>
+                <div class="tp-caption sfr large_white"
+                     data-x="right"
+                     data-y="600"
+                     data-hoffset="-50"
+                     data-speed="900"
+                     data-start="1900"
+                     data-easing="easeOutBack">
+                    George Washington
+                </div>*@
+            </li>
+        </ul>
+    </div><!--slider-->
+</div><!--home-->
+
+<div id="about" class="section anchor">
+    <div class="section_title">
+        <div class="small">Check out</div>
+        <div class="big">How we do it</div>
+        <div class="text">Some text here that maybe describes the video or any other type of marketing type speech you'd like.  If you like the icons that fly in, we might be able to find some that actually match painting or restoration....even easier if you don't want them!</div>
+    </div>
+    <div class="device imac animated fx_opacity_show">
+        <div class="preview">
+            <img src="/Images/temp/videoCover.png" alt="" />
+        </div>
+        <div class="glare"></div>
+        <a class="play fancybox fancybox.iframe" href="https://vimeo.com/86089174"><i class="fa fa-smooth fa-youtube-play fa-5x"></i></a>
+    </div>
+    <div class="about_parallax highlight">
+        <div class="about_parallax_left layer_1 animated">
+            <div style="position:absolute;left:0;top:85px;"><strong>Varnish</strong></div>
+            <div style="position:absolute;left:120px;top:30px;"><strong>Lacquer</strong></div>
+            <div style="position:absolute;left:450px;top:250px;"><strong>Something Else</strong></div>
+        </div>
+        <div class="about_parallax_left layer_2 animated">
+            <div style="position:absolute;left:70px;top:140px;"><strong>Varnish</strong></div>
+            <div style="position:absolute;left:310px;top:150px;"><strong>Quality</strong></div>
+            <div style="position:absolute;left:420px;top:0px;"><i class="fa fa-smooth fa-comments fa-2x"></i></div>
+            <div style="position:absolute;left:520px;top:90px;"><i class="fa fa-smooth fa-leaf fa-2x"></i></div>
+        </div>
+        <div class="about_parallax_left layer_3 animated">
+            <div style="position:absolute;left:230px;top:20px;"><strong>Varnish</strong></div>
+        </div>
+        <div class="about_parallax_right layer_1 animated">
+            <div style="position:absolute;right:0px;top:80px;"><i class="fa fa-smooth fa-star fa-lg"></i></div>
+            <div style="position:absolute;right:210px;top:220px;"><strong>Varnish</strong></div>
+        </div>
+        <div class="about_parallax_right layer_2 animated">
+            <div style="position:absolute;right:290px;top:80px;"><strong>Integrity</strong></div>
+        </div>
+        <div class="about_parallax_right layer_3 animated">
+            <div style="position:absolute;right:120px;top:70px;"><strong>Reliable</strong></div>
+            <div style="position:absolute;right:380px;top:170px;"><strong>On Time</strong></div>
+            <div style="position:absolute;right:460px;top:0px;"<strong>Craftsmanship</strong></div>
+        </div>
+    </div><!--about_parallax-->
+</div><!--about-->
+
+<div id="portfolio" class="section anchor">
+    <div class="section_title">
+        <div class="small">our featured</div>
+        <div class="big">projects</div>
+        <div class="text">There once was a story about a man who could turn invisible. I thought it was only a story...</div>
+    </div>
+    <div class="container">
+
+        <div id="project">
+            <div class="loader"></div>
+            <div class="project_navigation">
+                <div id="prev_project">
+                    <a href="#"><i class="highlight fa fa-arrow-left"></i></a>
+                </div>
+                <div id="next_project">
+                    <a href="#"><i class="highlight fa fa-arrow-right"></i></a>
+                </div>
+                <div id="close_project">
+                    <a href="#"><i class="highlight fa fa-times"></i></a>
+                </div>
+            </div><!--navigation_controls-->
+            <div id="project_content">
+                <!--Dynamic project content loads here-->
+            </div>
+        </div>
+
+        <div class="view_type">
+            <a href="ajax_grid_projects.html" class="type_grid active"><i class="fa fa-th"></i></a>
+            <a href="ajax_list_projects.html" class="type_list"><i class="fa fa-th-list"></i></a>
+        </div>
+        <div class="filters">
+            <ul>
+                <li class="active"><a href="#" data-filter="*">all</a></li>
+                <li><a href="#" data-filter=".branding">Interior</a></li>
+                <li><a href="#" data-filter=".design">Exterior</a></li>
+                <li><a href="#" data-filter=".photography">Windows</a></li>
+                <li><a href="#" data-filter=".videography">Cabinets</a></li>
+            </ul>
+        </div><!--filters-->
+
+    </div><!--container-->
+
+    <div id="projects">
+        <div class="loader"></div>
+        <div id="ajax_container">
+            <div id="ajax_content">
+                <!--Dynamic content start-->
+                <div class="projects grid_projects">
+                    <ul>
+                        <li class="branding">
+                            <div class="project_image">
+                                <img src="/Images/temp/portfolio1.jpg" alt="" width="290" height="194" />
+                            </div>
+                            <div class="project_overlay">
+                                <a href="#!portfolio-item/project_1.html">
+                                    <span class="project_icon"><i class="fa fa-youtube-play"></i></span>
+                                    <span class="project_title highlight">Video file type</span>
+                                    <span class="project_text">With the new day comes new strength and new thoughts.</span>
+                                </a>
+                            </div>
+                        </li>
+                        <li class="videography">
+                            <div class="project_image">
+                                <img src="/Images/temp/portfolio1.jpg" alt="" width="290" height="194" />
+                            </div>
+                            <div class="project_overlay">
+                                <a href="#!portfolio-item/project_2.html">
+                                    <span class="project_icon"><i class="fa fa-picture-o"></i></span>
+                                    <span class="project_title highlight">Image file type</span>
+                                    <span class="project_text">With the new day comes new strength and new thoughts.</span>
+                                </a>
+                            </div>
+                        </li>
+                        <li class="photography">
+                            <div class="project_image">
+                                <img src="/Images/temp/portfolio1.jpg" alt="" width="290" height="194" />
+                            </div>
+                            <div class="project_overlay">
+                                <a href="#!portfolio-item/project_3.html">
+                                    <span class="project_icon"><i class="fa fa-camera"></i></span>
+                                    <span class="project_title highlight">Photoshoot</span>
+                                    <span class="project_text">With the new day comes new strength and new thoughts.</span>
+                                </a>
+                            </div>
+                        </li>
+                        <li class="branding">
+                            <div class="project_image">
+                                <img src="/Images/temp/portfolio1.jpg" alt="" width="290" height="194" />
+                            </div>
+                            <div class="project_overlay">
+                                <a href="#!portfolio-item/project_4.html">
+                                    <span class="project_icon"><i class="fa fa-youtube-play"></i></span>
+                                    <span class="project_title highlight">Video file type</span>
+                                    <span class="project_text">With the new day comes new strength and new thoughts.</span>
+                                </a>
+                            </div>
+                        </li>
+                        <li class="videography">
+                            <div class="project_image">
+                                <img src="/Images/temp/portfolio1.jpg" alt="" width="290" height="194" />
+                            </div>
+                            <div class="project_overlay">
+                                <a href="#!portfolio-item/project_5.html">
+                                    <span class="project_icon"><i class="fa fa-picture-o"></i></span>
+                                    <span class="project_title highlight">Image file type</span>
+                                    <span class="project_text">With the new day comes new strength and new thoughts.</span>
+                                </a>
+                            </div>
+                        </li>
+                        <li class="photography design">
+                            <div class="project_image">
+                                <img src="/Images/temp/portfolio1.jpg" alt="" width="290" height="194" />
+                            </div>
+                            <div class="project_overlay">
+                                <a href="#!portfolio-item/project_6.html">
+                                    <span class="project_icon"><i class="fa fa-camera"></i></span>
+                                    <span class="project_title highlight">Photoshoot</span>
+                                    <span class="project_text">With the new day comes new strength and new thoughts.</span>
+                                </a>
+                            </div>
+                        </li>
+                        <li class="branding">
+                            <div class="project_image">
+                                <img src="/Images/temp/portfolio1.jpg" alt="" width="290" height="194" />
+                            </div>
+                            <div class="project_overlay">
+                                <a href="#!portfolio-item/project_7.html">
+                                    <span class="project_icon"><i class="fa fa-youtube-play"></i></span>
+                                    <span class="project_title highlight">Video file type</span>
+                                    <span class="project_text">With the new day comes new strength and new thoughts.</span>
+                                </a>
+                            </div>
+                        </li>
+                        <li class="videography">
+                            <div class="project_image">
+                                <img src="/Images/temp/portfolio1.jpg" alt="" width="290" height="194" />
+                            </div>
+                            <div class="project_overlay">
+                                <a href="#!portfolio-item/project_8.html">
+                                    <span class="project_icon"><i class="fa fa-picture-o"></i></span>
+                                    <span class="project_title highlight">Image file type</span>
+                                    <span class="project_text">With the new day comes new strength and new thoughts.</span>
+                                </a>
+                            </div>
+                        </li>
+                        <li class="photography">
+                            <div class="project_image">
+                                <img src="/Images/temp/portfolio1.jpg" alt="" width="290" height="194" />
+                            </div>
+                            <div class="project_overlay">
+                                <a href="#!portfolio-item/project_9.html">
+                                    <span class="project_icon"><i class="fa fa-camera"></i></span>
+                                    <span class="project_title highlight">Photoshoot</span>
+                                    <span class="project_text">With the new day comes new strength and new thoughts.</span>
+                                </a>
+                            </div>
+                        </li>
+                        <li class="design">
+                            <div class="project_image">
+                                <img src="/Images/temp/portfolio1.jpg" alt="" width="290" height="194" />
+                            </div>
+                            <div class="project_overlay">
+                                <a href="#!portfolio-item/project_10.html">
+                                    <span class="project_icon"><i class="fa fa-youtube-play"></i></span>
+                                    <span class="project_title highlight">Video file type</span>
+                                    <span class="project_text">With the new day comes new strength and new thoughts.</span>
+                                </a>
+                            </div>
+                        </li>
+                        <li class="videography">
+                            <div class="project_image">
+                                <img src="/Images/temp/portfolio1.jpg" alt="" width="290" height="194" />
+                            </div>
+                            <div class="project_overlay">
+                                <a href="#!portfolio-item/project_11.html">
+                                    <span class="project_icon"><i class="fa fa-picture-o"></i></span>
+                                    <span class="project_title highlight">Image file type</span>
+                                    <span class="project_text">With the new day comes new strength and new thoughts.</span>
+                                </a>
+                            </div>
+                        </li>
+                        <li class="photography design">
+                            <div class="project_image">
+                                <img src="/Images/temp/portfolio1.jpg" alt="" width="290" height="194" />
+                            </div>
+                            <div class="project_overlay">
+                                <a href="#!portfolio-item/project_12.html">
+                                    <span class="project_icon"><i class="fa fa-camera"></i></span>
+                                    <span class="project_title highlight">Photoshoot</span>
+                                    <span class="project_text">With the new day comes new strength and new thoughts.</span>
+                                </a>
+                            </div>
+                        </li>
+                        <li class="design">
+                            <div class="project_image">
+                                <img src="/Images/temp/portfolio1.jpg" alt="" width="290" height="194" />
+                            </div>
+                            <div class="project_overlay">
+                                <a href="#!portfolio-item/project_13.html">
+                                    <span class="project_icon"><i class="fa fa-youtube-play"></i></span>
+                                    <span class="project_title highlight">Video file type</span>
+                                    <span class="project_text">With the new day comes new strength and new thoughts.</span>
+                                </a>
+                            </div>
+                        </li>
+                        <li class="videography">
+                            <div class="project_image">
+                                <img src="/Images/temp/portfolio1.jpg" alt="" width="290" height="194" />
+                            </div>
+                            <div class="project_overlay">
+                                <a href="#!portfolio-item/project_14.html">
+                                    <span class="project_icon"><i class="fa fa-picture-o"></i></span>
+                                    <span class="project_title highlight">Image file type</span>
+                                    <span class="project_text">With the new day comes new strength and new thoughts.</span>
+                                </a>
+                            </div>
+                        </li>
+                        <li class="photography design">
+                            <div class="project_image">
+                                <img src="/Images/temp/portfolio1.jpg" alt="" width="290" height="194" />
+                            </div>
+                            <div class="project_overlay">
+                                <a href="#!portfolio-item/project_15.html">
+                                    <span class="project_icon"><i class="fa fa-camera"></i></span>
+                                    <span class="project_title highlight">Photoshoot</span>
+                                    <span class="project_text">With the new day comes new strength and new thoughts.</span>
+                                </a>
+                            </div>
+                        </li>
+                    </ul>
+                </div><!--grid_projects-->
+                <!--Dynamic content end-->
+            </div><!--ajax_content-->
+        </div><!--ajax_container-->
+    </div><!--projects-->
+
+</div><!--portfolio-->
+
+<div id="services" class="section anchor">
+    <div class="section_title">
+        <div class="small highlight">we do</div>
+        <div class="big">awesome work</div>
+        <div class="text">Inside and out!  We have the staff and experience to handle all of your painting and restoration needs.</div>
+    </div>
+    <div class="container">
+        <div class="services">
+            <div class="carousel_navigation highlight">
+                <div class="prev"><i class="fa fa-arrow-left"></i></div>
+                <div class="next"><i class="fa fa-arrow-right"></i></div>
+            </div>
+            <div class="column">
+                <div class="service_icon">
+                    <span><i class="fa fa-home"></i></span>
+                    <div class="icon_bg"><div class="overlay_grid"></div></div>
+                </div>
+                <div class="service_title">
+                    Painting
+                </div>
+                <div class="service_text">
+                    We have a team of professionals that can turn your current living space into pure luxury.
+                </div>
+                <ul class="service_features">
+                    <li>
+                        <div class="icon highlight">
+                            <i class="fa fa-bolt"></i>
+                        </div>
+                        Interior
+                    </li>
+                    <li>
+                        <div class="icon highlight">
+                            <i class="fa fa-bolt"></i>
+                        </div>
+                        Exterior
+                    </li>
+                    <li>
+                        <div class="icon highlight">
+                            <i class="fa fa-bolt"></i>
+                        </div>
+                        Lacquer
+                    </li>
+                    <li>
+                        <div class="icon highlight">
+                            <i class="fa fa-bolt"></i>
+                        </div>
+                        Varnish
+                    </li>
+                </ul>
+            </div><!--column--><div class="column">
+                <div class="service_icon">
+                    <span><i class="fa fa-windows"></i></span>
+                    <div class="icon_bg"><div class="overlay_grid"></div></div>
+                </div>
+                <div class="service_title">
+                    Windows
+                </div>
+                <div class="service_text">
+                   We are passionate about home upgrads and restorations.  Let us make your dream house a reality
+                </div>
+                <ul class="service_features">
+                    <li>
+                        <div class="icon highlight">
+                            <i class="fa fa-bolt"></i>
+                        </div>
+                        Installation
+                    </li>
+                    <li>
+                        <div class="icon highlight">
+                            <i class="fa fa-bolt"></i>
+                        </div>
+                        Shutters
+                    </li>
+                    <li>
+                        <div class="icon highlight">
+                            <i class="fa fa-bolt"></i>
+                        </div>
+                        Repair
+                    </li>
+                    <li>
+                        <div class="icon highlight">
+                            <i class="fa fa-bolt"></i>
+                        </div>
+                        Modifications
+                    </li>
+                </ul>
+            </div><!--column--><div class="column">
+                <div class="service_icon">
+                    <span><i class="fa fa-wrench"></i></span>
+                    <div class="icon_bg"><div class="overlay_grid"></div></div>
+                </div>
+                <div class="service_title">
+                    Restorations
+                </div>
+                <div class="service_text">
+                    Communication is the key to success. We know it and we believe we work for people and we need to make their lives easier.
+                </div>
+                <ul class="service_features">
+                    <li>
+                        <div class="icon highlight">
+                            <i class="fa fa-bolt"></i>
+                        </div>
+                        Furniture
+                    </li>
+                    <li>
+                        <div class="icon highlight">
+                            <i class="fa fa-bolt"></i>
+                        </div>
+                        Kitchens
+                    </li>
+                    <li>
+                        <div class="icon highlight">
+                            <i class="fa fa-bolt"></i>
+                        </div>
+                        Bathrooms
+                    </li>
+                    <li>
+                        <div class="icon highlight">
+                            <i class="fa fa-bolt"></i>
+                        </div>
+                        Cabinets
+                    </li>
+                </ul>
+            </div><!--column-->
+        </div><!--container-->
+    </div><!--services-->
+
+</div><!--services-->
+
+<div id="testimonials" class="section full_height">
+    <div class="overlay_grid"></div>
+    <div class="parallax_bg" style="background-image: url(/images/temp/quotes_1920x1080.png)"></div>
+    <div class="testimonials_carousel">
+        <ul>
+            <li>
+                <div class="testimonial_container">
+                    <div class="testimonial_content">
+                        <div class="container">
+                            <i class="highlight fa fa-quote-right fa-5x"></i>
+                            <div class="testimonial_text">
+                                The will to win, the desire to succeed, the urge to reach your full potential... these are the keys that will unlock the door to personal excellence.
+                            </div>
+                            <div class="testimonial_author highlight">
+                                Danny Schreiber
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </li>
+            <li>
+                <div class="testimonial_container">
+                    <div class="testimonial_content">
+                        <div class="container">
+                            <i class="highlight fa fa-quote-right fa-5x"></i>
+                            <div class="testimonial_text">
+                                The man who removes a mountain begins by carrying away small stones.
+                            </div>
+                            <div class="testimonial_author highlight">
+                                Danny Schreiber
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </li>
+        </ul>
+    </div>
+</div><!--testimonials-->
+
+
+
+<div id="team" class="section anchor">
+    <div class="section_title">
+        <div class="small">Let us make</div>
+        <div class="big">your dream come true</div>
+        <div class="text">Our team consists of the best professionals in the industry, one coat above the rest!</div>
+    </div>
+    <div class="container">
+        <div class="team">
+            <div class="carousel_navigation highlight">
+                <div class="prev"><i class="fa fa-arrow-left"></i></div>
+                <div class="next"><i class="fa fa-arrow-right"></i></div>
+            </div>
+            <!--column-->
+            <div class="column">
+                <div class="member_photo">
+                    <img src="/Images/temp/dave_190.png" alt="" width="190" height="190" />
+                    <div class="photo_overlay"></div>
+                </div>
+                <div class="member_name">
+                    Dave Miller
+                </div>
+                <div class="member_text">
+                    Over 20 years experience and the answer to all of your painting and restoration problems.
+                </div>
+                <div class="read_more">
+                    <a href="#member_2" class="show_modal_popup">Details</a>
+                </div>
+            </div><!--column-->
+            <!--column-->
+        </div><!--team-->
+        <div class="modal" id="member_2">
+            <div class="close_modal" title="Close">
+                <i class="highlight fa fa-times"></i>
+            </div>
+            <div class="member_bio">
+                <div class="member_role">
+                    <h1>Dave Miller</h1>
+                    <h5 class="highlight">Owner</h5>
+                </div>
+                <div class="full_photo">
+                    <img src="/Images/temp/dave_380.png" alt="" />
+                </div>
+                <br />
+                <article class="article">
+                    <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Necessitatibus, eum, perspiciatis, eligendi consequatur nihil ratione molestiae nostrum veniam earum veritatis dolor aliquam ducimus nobis rem quia explicabo non voluptatum quos.</p>
+                    <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Necessitatibus, eum, perspiciatis, eligendi consequatur nihil ratione molestiae nostrum veniam earum veritatis dolor aliquam ducimus nobis rem quia explicabo non voluptatum quos.</p>
+                </article>
+            </div><!--member_bio-->
+        </div><!--modal-->
+    </div><!--container-->
+</div><!--team-->
+
+
+<div id="address" class="section">
+    <div class="address_block">
+        <div class="overlay_grid"></div>
+        <div class="parallax_bg" style="background-image: url(/images/temp/address_1920x970.png)"></div>
+        <div class="address_container">
+            <div class="address_content">
+                <div class="contact_details">
+                    <div class="contact_email">
+                        <a href="mailto:info@davemillerpainting.com">info@davemillerpainting.com</a>
+                    </div>
+                    <div class="contact_phone">
+                        209-555-5555
+                    </div>
+                    <div class="">
+                        123 Main St<br />
+                        Modesto, CA 95355
+                    </div>
+                </div><!--contact_details-->
+            </div><!--address_content-->
+        </div><!--address_container-->
+    </div><!--address_block-->
+    <div class="map_block">
+        <script type="text/javascript">
+            jQuery(document).ready(function () {
+                function initialize() {
+                    var secheltLoc = new google.maps.LatLng(37.639097, -120.996878);
+                    var myMapOptions = {
+                        center: secheltLoc,
+                        mapTypeId: google.maps.MapTypeId.ROADMAP,
+                        zoom: 15,
+                        scrollwheel: false,
+                        mapTypeControl: false,
+                        zoomControl: false,
+                        draggable: false
+                    };
+                    var theMap = new google.maps.Map(document.getElementById("google_map"), myMapOptions);
+                    var image = new google.maps.MarkerImage(
+                        'http://timra.ru/prevalence/images/pinmap.png',
+                        new google.maps.Size(57, 57),
+                        new google.maps.Point(0, 0),
+                        new google.maps.Point(20, 57)
+                    );
+                    var marker = new google.maps.Marker({
+                        map: theMap,
+                        icon: image,
+                        draggable: false,
+                        animation: google.maps.Animation.DROP,
+                        position: secheltLoc,
+                        visible: true
+                    });
+                    var boxText = document.createElement("div");
+                    boxText.innerHTML = '<div class="map_caption">Home Sweet Home</div>';
+                    var myOptions = {
+                        alignBottom: true,
+                        content: boxText,
+                        disableAutoPan: false,
+                        maxWidth: 0,
+                        pixelOffset: new google.maps.Size(-100, -60),
+                        zIndex: null,
+                        boxStyle: {
+                            width: "200px"
+                        },
+                        closeBoxURL: "",
+                        infoBoxClearance: new google.maps.Size(1, 1),
+                        isHidden: false,
+                        pane: "floatPane",
+                        enableEventPropagation: false
+                    };
+                    var ib = new InfoBox(myOptions);
+                    ib.open(theMap, marker);
+                }
+                google.maps.event.addDomListener(window, 'load', initialize);
+            });
+        </script>
+        <div id="google_map">
+
+        </div>
+    </div><!--map_block-->
+</div><!--address-->
+
+<div id="contact" class="section anchor">
+    <div class="section_title">
+        @*<div class="small">dove mail</div>*@
+        <div class="big">contact us</div>
+        <div class="text">Contact us for a free estimate <strong>today!</strong></div>
+    </div>
+    <div class="container">
+        <div class="contact_form">
+            <form action="#" method="post" id="contact_form" class="form">
+                <ul>
+                    <li>
+                        <div class="input_addon">
+                            <i class="highlight fa fa-user"></i>
+                        </div>
+                        <input type="text" name="name" placeholder="Your name" class="w240" />
+                    </li>
+                    <li>
+                        <div class="input_addon">
+                            <i class="highlight fa fa-envelope-o"></i>
+                        </div>
+                        <input type="text" name="email" placeholder="E-mail" class="w240" />
+                    </li>
+                    <li>
+                        <textarea name="message" rows="1" cols="1" placeholder="Type your message here" class="w570 h190"></textarea>
+                    </li>
+                </ul>
+                <input type="submit" value="send message" class="submit" />
+            </form>
+        </div><!--contact_form-->
+    </div><!--container-->
+</div><!--contact-->
